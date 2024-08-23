@@ -1,4 +1,4 @@
-import { View, Text, Image, ImageBackground } from "react-native";
+import { View, ImageBackground } from "react-native";
 import { Slot } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
