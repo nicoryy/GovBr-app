@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <SafeAreaView>
       <ImageBackground source={require("../assets/Frame 13.png")}>
-        <View className="h-screen justify-end">
+        <View className="h-screen justify-end font-sf">
           <BlurView
             intensity={90}
             experimentalBlurMethod="dimezisBlurView"

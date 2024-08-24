@@ -9,6 +9,9 @@ module.exports = {
         pp_bsbg: "#CACACA",
         secondary: "#ffffff",
       },
+      fontFamily: {
+        sf: ["SF Pro", "sans-serif"],
+      },
     },
     plugins: [],
   },
