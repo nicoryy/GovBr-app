@@ -12,7 +12,7 @@ export default function Layout() {
       <ImageBackground source={require("../assets/Frame 13.png")}>
         <View className="h-screen justify-end font-sf">
           <BlurView
-            intensity={90}
+            intensity={80}
             experimentalBlurMethod="dimezisBlurView"
             className="h-[475px] bg-pp_bsbg rounded-t-[30px] overflow-hidden flex justify-center items-center "
           >
