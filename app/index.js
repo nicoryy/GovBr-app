@@ -1,15 +1,15 @@
-import { Text, View, TouchableOpacity } from "react-native";
+import { Text, View, TouchableHighlight } from "react-native";
 
 export default function Page() {
   return (
-    <View className="flex justify-center items-center ">
-      <Text className="text-5xl w-[323px] py-24 bg-red-400 text-center font-medium">
+    <View className="flex h-full w-full items-center justify-start gap-12">
+      <Text className="text-5xl leading-tight w-[323px] py-16 text-center font-medium">
         A confiança de um governo seguro
       </Text>
 
-      <TouchableOpacity className="bg-pp_bsbg rounded-full px-24 py-3">
-        <Text>Continuar</Text>
-      </TouchableOpacity>
+      <TouchableHighlight className="bg-[#4E4E4E] rounded-full px-24 py-4">
+        <Text className='text-white'>Continuar</Text>
+      </TouchableHighlight>
     </View>
   );
 }
