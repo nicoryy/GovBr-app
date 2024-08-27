@@ -17,6 +17,15 @@ export default function Layout() {
         await SplashScreen.preventAutoHideAsync(); // Prevent the splash screen from hiding
         await Font.loadAsync({
           'SF Pro': require('../assets/fonts/SF Pro.ttf'),
+          'SF-Pro-Display-Black': require('../assets/fonts/SF-Pro-Display-Black.otf'),
+          'SF-Pro-Display-Bold': require('../assets/fonts/SF-Pro-Display-Bold.otf'),
+          'SF-Pro-Display-Heavy': require('../assets/fonts/SF-Pro-Display-Heavy.otf'),
+          'SF-Pro-Display-Light': require('../assets/fonts/SF-Pro-Display-Light.otf'),
+          'SF-Pro-Display-Medium': require('../assets/fonts/SF-Pro-Display-Medium.otf'),
+          'SF-Pro-Display-Regular': require('../assets/fonts/SF-Pro-Display-Regular.otf'),
+          'SF-Pro-Display-Semibold': require('../assets/fonts/SF-Pro-Display-Semibold.otf'),
+          'SF-Pro-Display-Thin': require('../assets/fonts/SF-Pro-Display-Thin.otf'),
+          'SF-Pro-Display-Ultralight': require('../assets/fonts/SF-Pro-Display-Ultralight.otf')
           // You can load multiple fonts here
         });
         setFontsLoaded(true);
